@@ -1,0 +1,78 @@
+ * {
+     font-family: 'Kdam Thmor Pro', sans-serif;
+     font-size: 20px;
+     cursor: default;
+     user-select: none;
+ }
+
+ body {
+     background: linear-gradient(to left, rgb(34, 44, 51) 28px, rgb(63, 43, 62)77%, rgb(41, 72, 72));
+ }
+
+ input::-webkit-inner-spin-button,
+ input::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+ }
+
+
+ input {
+     text-align: center;
+     padding-top: 17%;
+     padding-bottom: 17%;
+     /* caret-color: transparent; */
+     border: none;
+     outline: none;
+ }
+
+ .big-square-grid-container {
+     margin-top: 7%;
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     grid-template-columns: 160px 160px 160px;
+     grid-template-rows: 160px 160px 160px;
+     grid-gap: 10px;
+     text-align: center;
+     line-height: 250%;
+ }
+
+ .big-square-grid {
+     background-color: rgb(139, 240, 217);
+     border-radius: 3px;
+
+ }
+
+ .little-square-grid-container {
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     grid-template-columns: 50px 50px 50px;
+     grid-template-rows: 50px 50px 50px;
+     grid-gap: 5px;
+ }
+
+ .little-square-grid {
+     background-color: rgba(85, 85, 195, 0.451);
+     border-radius: 5px;
+ }
+
+ .little-square-grid:hover,
+ .little-square-grid:focus {
+     transform: scale(1.2);
+     box-shadow: 5px 5px 5px rgb(65, 43, 64);
+     background-color: rgba(85, 85, 195, 0.656);
+     cursor: pointer;
+ }
+
+ .little-square-grid:active {
+     transform: scale(0.9);
+     cursor: pointer;
+ }
+
+ .hovered {
+     background-color: rgba(85, 85, 195, 0.650);
+ }
+
+ input {
+     transition: background-color 0.5s ease-in-out;
+ }

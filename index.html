@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="big-square-grid-container">
+        <div class="big-square-grid">
+            <div class="little-square-grid-container">
+                <input class="little-square-grid block-a box-a column-a row-a" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-a box-b column-b row-a" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-a box-c column-c row-a" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-a box-d column-a row-b" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-a box-e column-b row-b" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-a box-f column-c row-b" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-a box-g column-a row-c" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-a box-h column-b row-c" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-a box-i column-c row-c" type="number" placeholder="_"></input>
+            </div>
+        </div>
+        <div class="big-square-grid">
+            <div class="little-square-grid-container">
+                <input class="little-square-grid block-b box-a column-d row-a" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-b box-b column-e row-a" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-b box-c column-f row-a" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-b box-d column-d row-b" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-b box-e column-e row-b" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-b box-f column-f row-b" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-b box-g column-d row-c" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-b box-h column-e row-c" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-b box-i column-f row-c" type="number" placeholder="_"></input>
+            </div>
+        </div>
+        <div class="big-square-grid">
+            <div class="little-square-grid-container">
+                <input class="little-square-grid block-c box-a column-g row-a" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-c box-b column-h row-a" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-c box-c column-i row-a" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-c box-d column-g row-b" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-c box-e column-h row-b" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-c box-f column-i row-b" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-c box-g column-g row-c" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-c box-h column-h row-c" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-c box-i column-i row-c" type="number" placeholder="_"></input>
+            </div>
+        </div>
+        <div class="big-square-grid">
+            <div class="little-square-grid-container">
+                <input class="little-square-grid block-d box-a column-a row-d" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-d box-b column-b row-d" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-d box-c column-c row-d" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-d box-d column-a row-e" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-d box-e column-b row-e" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-d box-f column-c row-e" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-d box-g column-a row-f" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-d box-h column-b row-f" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-d box-i column-c row-f" type="number" placeholder="_"></input>
+            </div>
+        </div>
+        <div class="big-square-grid">
+            <div class="little-square-grid-container">
+                <input class="little-square-grid block-e box-a column-d row-d" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-e box-b column-e row-d" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-e box-c column-f row-d" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-e box-d column-d row-e" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-e box-e column-e row-e" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-e box-f column-f row-e" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-e box-g column-d row-f" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-e box-h column-e row-f" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-e box-i column-f row-f" type="number" placeholder="_"></input>
+            </div>
+        </div>
+        <div class="big-square-grid">
+            <div class="little-square-grid-container">
+                <input class="little-square-grid block-f box-a column-g row-d" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-f box-b column-h row-d" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-f box-c column-i row-d" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-f box-d column-g row-e" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-f box-e column-h row-e" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-f box-f column-i row-e" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-f box-g column-g row-f" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-f box-h column-h row-f" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-f box-i column-i row-f" type="number" placeholder="_"></input>
+            </div>
+        </div>
+        <div class="big-square-grid">
+            <div class="little-square-grid-container">
+                <input class="little-square-grid block-g box-a column-a row-g" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-g box-b column-b row-g" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-g box-c column-c row-g" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-g box-d column-a row-h" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-g box-e column-b row-h" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-g box-f column-c row-h" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-g box-g column-a row-i" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-g box-h column-b row-i" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-g box-i column-c row-i" type="number" placeholder="_"></input>
+            </div>
+        </div>
+        <div class="big-square-grid">
+            <div class="little-square-grid-container">
+                <input class="little-square-grid block-h box-a column-d row-g" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-h box-b column-e row-g" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-h box-c column-f row-g" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-h box-d column-d row-h" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-h box-e column-e row-h" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-h box-f column-f row-h" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-h box-g column-d row-i" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-h box-h column-e row-i" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-h box-i column-f row-i" type="number" placeholder="_"></input>
+            </div>
+        </div>
+        <div class="big-square-grid">
+            <div class="little-square-grid-container">
+                <input class="little-square-grid block-i box-a column-g row-g" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-i box-b column-h row-g" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-i box-c column-i row-g" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-i box-d column-g row-h" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-i box-e column-h row-h" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-i box-f column-i row-h" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-i box-g column-g row-i" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-i box-h column-h row-i" type="number" placeholder="_"></input>
+                <input class="little-square-grid block-i box-i column-i row-i" type="number" placeholder="_"></input>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
